@@ -1,3 +1,3 @@
-streamlit
-transformers
-torch
+streamlit==1.29.0 # Use a specific version known to be stable
+transformers==4.35.2 # Replace with a specific stable version
+torch==2.1.2 # Replace with a specific stable version
