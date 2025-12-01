@@ -95,7 +95,7 @@ with st.spinner('Waking up the AI... 😴... Almost there!'):
 
 # --- User Input ---
 st.subheader("📝 Paste Your Text Below")
-user_text = st.text_area("", height=250, placeholder="Type or paste something here...")
+user_text = st.text_area("User Text", label_visibility="hidden", height=250, placeholder="Type or paste something here...")
 
 col1, col2, col3 = st.columns([2, 2, 8])
 
